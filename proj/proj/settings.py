@@ -56,7 +56,7 @@ MIDDLEWARE = [
     'django.contrib.flatpages.middleware.FlatpageFallbackMiddleware',
 ]
 
-ROOT_URLCONF = 'skillfdjango.urls'
+ROOT_URLCONF = 'proj.urls'
 
 TEMPLATES = [
     {
@@ -74,7 +74,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'skillfdjango.wsgi.application'
+WSGI_APPLICATION = 'proj.wsgi.application'
 
 
 # Database
